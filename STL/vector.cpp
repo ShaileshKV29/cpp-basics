@@ -12,5 +12,10 @@ int main()
     for(int x:v)
         cout << x << " ";
 
+    cout << endl;
+    vector<int>::iterator itr;
+    for(itr = v.begin(); itr != v.end(); itr++)
+        cout << *itr << " ";
+
     return 0;
 }
